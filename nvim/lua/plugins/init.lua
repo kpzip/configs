@@ -91,13 +91,15 @@ return {
     'williamboman/mason.nvim',
     opts = {
       ensure_installed = {
-        "typescript-language-server",
+        "typescript-language-seHrver",
         "rust-analyzer",
         "codelldb",
         "tailwindcss-language-server",
         "eslint-lsp",
         "matlab-language-server",
         "python-lsp-server",
+        "clangd",
+        "java-language-server",
       },
     },
   },
